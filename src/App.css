@@ -21,3 +21,32 @@
     margin-left: 0.7rem;
     letter-spacing: -0.1rem;
 }
+
+/*-------------------Card---------------------*/
+
+.card-image {
+    width: 12.5rem;
+    height: 16.8rem;
+    border-radius: 1rem;
+}
+.point-card {
+
+}
+.card-country {
+    
+}
+.google {
+    color:#918E9B;
+    font-size: 1.3rem;
+}
+
+.card-place {
+
+}
+
+.card-date {
+
+}
+.card-text {
+
+}
