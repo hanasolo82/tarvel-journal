@@ -38,8 +38,6 @@
     margin: 4.0rem;
     max-width: 47rem;
     min-width: 40rem;
-    border-bottom: 0.12rem solid rgb(237, 236, 236);
-    padding-bottom: 4rem;
 }
 .card-text-container {
     display: flex;
@@ -55,10 +53,12 @@
     
 }
 .card-image {
-    width: 14.5rem;
-    height: 19.8rem;
+    max-width: 12.6rem;
+    height: 16.8rem;
     border-radius: 1rem;
+    object-fit: cover;
 }
+
 .point-card {
      
      width: 1rem;
@@ -90,4 +90,10 @@
     font-size: 1.24rem;
     margin-top: 0.9rem;
     color: #2B283A;
+}
+
+.hr {
+    width: 30rem;
+    border: 1px solid #e9e7e7;
+    
 }
