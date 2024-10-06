@@ -1,5 +1,11 @@
 
-
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
 .header {
     background-color: #F55A5A;
     color: white;
@@ -9,6 +15,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    min-width: 40rem;
 }
 
 .header-globe {
@@ -23,30 +30,64 @@
 }
 
 /*-------------------Card---------------------*/
+.card-img-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center ;
+    margin: 4.0rem;
+    max-width: 47rem;
+    min-width: 40rem;
+    border-bottom: 0.12rem solid rgb(237, 236, 236);
+    padding-bottom: 4rem;
+}
+.card-text-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.9rem;
 
+}
+.text-header{
+    
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    
+}
 .card-image {
-    width: 12.5rem;
-    height: 16.8rem;
+    width: 14.5rem;
+    height: 19.8rem;
     border-radius: 1rem;
 }
 .point-card {
-
+     
+     width: 1rem;
 }
 .card-country {
-    
+    margin-left: 0.4rem;
+    font-size: 1.024rem;
 }
 .google {
     color:#918E9B;
-    font-size: 1.3rem;
+    font-size: 1.024rem;
+    margin-left: 1.2rem;
 }
 
 .card-place {
-
+    
+    font-size: 2.5rem;
+    margin-top: 0.7rem;
 }
 
 .card-date {
-
+    
+    margin-top: 1.7rem;
+    font-weight: bold;
+    font-size: 1.24rem;
 }
 .card-text {
-
+    font-weight: 400;
+    font-size: 1.24rem;
+    margin-top: 0.9rem;
+    color: #2B283A;
 }
