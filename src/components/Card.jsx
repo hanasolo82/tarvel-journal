@@ -1,5 +1,5 @@
 import React from "react";
-
+1
 export default function Card(props) {
   
   return (
@@ -13,7 +13,7 @@ export default function Card(props) {
       />
       <div className="card-text-container">
           <div className="text-header">
-            <img className="point-card" src="./public/point.svg" alt="waypoint image" />
+            <img className="point-card" src="/point.svg" alt="waypoint image" />
             <span className="card-country">{props.country}</span>
             <a href={props.link} alt="google maps link" target="_blank" rel="noopener noreferrer" className="google">
             View on Google Maps
